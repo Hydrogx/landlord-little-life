@@ -4,6 +4,8 @@
 
 单人、回合制（一个回合代表一个月）、纯前端运行，无需后端、无需账号，数据保存在浏览器本地。
 
+**在线试玩**：https://hydrogx.github.io/landlord-little-life/
+
 ## 快速开始
 
 ```bash
