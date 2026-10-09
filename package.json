@@ -1,0 +1,36 @@
+{
+  "name": "landlord-little-life",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "房东小日子 - 深圳房东经营小游戏",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "e2e:install": "playwright install chromium",
+    "typecheck": "tsc --noEmit",
+    "simulate": "tsx scripts/simulate.ts"
+  },
+  "dependencies": {
+    "motion": "^12.23.24",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.4",
+    "@types/react": "^18.3.7",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "jsdom": "^26.1.0",
+    "tsx": "^4.20.4",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.4"
+  }
+}
